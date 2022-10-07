@@ -2,7 +2,7 @@
 
 public class Greeter
 {
-  static string Greet(string name)
+  public static string Greet(string name)
   {
     return $"Hello, {name}!";
   }
