@@ -9,6 +9,8 @@
     <Version>xxx</Version>
     <Authors>Erin Millard</Authors>
     <Company>Ezzatron</Company>
+    <PackageDescription>Hello world as a NuGet package</PackageDescription>
+    <RepositoryUrl>https://github.com/ezzatron/nuget-package-poc</RepositoryUrl>
 
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
