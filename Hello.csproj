@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <PackageId>Ezzatron.Hello</PackageId>
-    <Version>xxx</Version>
+    <Version>0.0.0</Version>
     <Authors>Erin Millard</Authors>
     <Company>Ezzatron</Company>
     <PackageDescription>Hello world as a NuGet package</PackageDescription>
