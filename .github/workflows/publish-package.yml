@@ -35,5 +35,4 @@ jobs:
       - name: Publish
         env:
           VERSION: ${{ steps.determine-version.outputs.version }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: dotnet nuget push "bin/Release/Ezzatron.Hello.$VERSION.nupkg" --source "github"
+        run: dotnet nuget push "bin/Release/Ezzatron.Hello.$VERSION.nupkg" --source "github" --api-key "${{ secrets.GITHUB_TOKEN }}"
