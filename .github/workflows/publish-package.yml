@@ -51,4 +51,4 @@ jobs:
         run: dotnet test "/p:Version=$VERSION" --configuration Release --no-build --verbosity normal
 
       - name: Publish
-        run: dotnet nuget push "bin/Release/Ezzatron.Hello.$VERSION.nupkg" --source "github" --api-key "${{ secrets.GITHUB_TOKEN }}"
+        run: dotnet nuget push "bin/Release/Ezzatron.Hello.$VERSION.nupkg" --api-key "${{ secrets.GITHUB_TOKEN }}"
